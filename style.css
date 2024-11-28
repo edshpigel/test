@@ -1,0 +1,318 @@
+:root {
+  --dark: black;
+  --accent: #999999;
+  --white: #fff;
+  --white-negr:#f2f2f2;
+  --tr: 0.25s;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Шапка*/
+
+.header_logo{
+  text-decoration: none;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-height: 132px;
+  padding-top: 37px;
+}
+.container{
+  max-width: 1441;
+  padding-left: 240px;
+  padding-right: 240px;
+  margin: 0% auto;
+}
+.nav_link{
+  color: var(--accent);
+  transform: none;
+  text-decoration: none;
+  transition: var(--tr);
+  font-size: 18px;
+
+}
+.nav_link:hover{
+  color:rgb(0, 130, 244);
+}
+.nav_link_a:hover{
+  color:#0B63F6;
+}
+nav{
+  display: flex;
+  gap: 62px;
+  size: 18px;
+}
+.dark{
+  background-color: var(--dark);
+}
+.while{
+  background-color: var(--white-negr);
+}
+.text_header{
+  color: var(--white);
+  font-size: 26px;
+}
+.nav_link_a{
+  display: flex;
+  font-size: 18px;
+  transform: none;
+  text-decoration: none;
+  color:var(--accent);
+  margin-right: 51px;
+  
+}
+.header.second{
+  display: flex;
+  justify-content:right;
+  padding-left: 52px;
+  padding-top: 27px;
+}
+.btn_3{
+  text-decoration: none;
+  transform: none;
+  color:var(--white);
+  border: none;
+  border-radius: 17px;
+  background: #0B63F6;
+  padding-top: 11px;
+  padding-right: 22px;
+  padding-left: 18px;
+  padding-bottom: 12px;
+  margin-left: -16px;
+}
+
+/*Тело*/
+
+.container_second{
+  max-width: 1441;
+  padding-left: 240px;
+  padding-right: 240px;
+  margin: 0% auto;
+  padding-top: 150px;
+  position: relative;
+}
+.text_main{
+  font-size: 170px;
+  color:#fff;
+  margin: 0 auto;
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  transform: translate(-10%, -5%);
+}
+
+.main_first{
+  padding-left: 900px;
+  margin: 0;
+  position:relative;
+}
+.img_air{
+  width: auto;
+  height: auto;
+  padding-bottom: 150px;
+}
+.container_thee{
+  max-width: 1441;
+  padding-left: 240px;
+  padding-right: 240px;
+  place-items: center;
+  margin-left: 350px;
+}
+.btn_4{
+  color: var(--white);
+  transform: none;
+  text-decoration: none;
+  transition: var(--tr);
+  font-size: 40px;
+  padding-right: 100px;
+  padding-bottom: 36px;
+}
+.btn_4:last-child{
+  border: solid;
+  border-radius: 17px;
+  padding-top: 11px;
+  padding-right: 22px;
+  padding-left: 18px;
+  padding-bottom: 12px;
+  margin-left: -30px;
+}
+.container_four{
+  max-width: 1441;
+  padding-left: 240px;
+  padding-right: 240px;
+  margin: 0% auto;
+  padding-top: 70px;
+}
+.Magic{
+  color:white;
+  font-size: 80px;
+  padding-left: 25%;
+}
+.negr{
+  padding-left: 25%;
+}
+.Magic_comfort{
+  color:white;
+  font-size: 80px;
+  padding-left: 45%;
+}
+.pods{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 234px;
+}
+.text_pod{
+  color: var(--white-negr);
+  font-size: 26px;
+  padding-top: 400px;
+}
+.container_while{
+
+  max-width: 1441;
+  padding-left: 240px;
+  padding-right: 240px;
+  margin: 0% auto;
+}
+.baba_white{
+  padding-left: 18%;
+
+}
+.up{
+position: relative;
+
+}
+.mini-text{
+  margin-top: 17%;
+  position: absolute;
+  font-size: 26px;
+  font-weight: bold;
+}
+.everything{
+  margin-top: 20%;
+  position: absolute;
+  font-size: 80px;
+  font-weight: bold;
+}
+.container_four_5{
+  max-width: 1441;
+  padding-left: 240px;
+  padding-right: 240px;
+  margin: 0% auto;
+  padding-top: 70px;
+  padding-bottom: 2090px;
+}
+.box_l_r{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.first_text_choose{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: -5%;
+  color:white;
+  font-size: 26px;
+}
+.first_text_internally{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 30%;
+  color:white;
+  font-size: 26px;
+}
+.Active{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 33%;
+  color:white;
+  font-size: 26px;
+  margin-top: 15%;
+}
+.Sounds{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 20%;
+  font-weight: bold;
+  color:white;
+  font-size: 80px;
+  margin-top: 17%;
+}
+.An{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  font-weight: bold;
+  color:white;
+  font-size: 26px;
+  margin-top: 30%;
+}
+.yho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin-top: 39%;
+  margin-left: 12%;
+}
+.AirPodsPro{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  color:white;
+  font-size: 26px;
+  margin-top: 35%;
+  margin-left: 50%;
+}
+.inward{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  color:white;
+  font-size: 26px;
+  margin-top: 65%;
+  margin-left: 28%;
+}
+.Specifications{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  color:white;
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 75%;
+  margin-left: 27%;
+}
+.container_while_ferum{
+  position: relative;
+  max-width: 1441;
+  padding-left: 240px;
+  padding-right: 240px;
+  margin: 0% auto;
+  z-index: 1;
+
+}
+.z-index{
+  position: absolute;
+  z-index: 5;
+}
+.ferum{
+  position: absolute;
+  z-index: -5;
+}
+
+
+
+
